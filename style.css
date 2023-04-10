@@ -1,0 +1,102 @@
+/* specify formatting 'map' - map only */
+.map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+/* specify formatting 'map-overlay-search' that included the geocoder and return button */
+.map-overlay-search {
+    position: relative;
+    font: 14px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background: rgba(249, 249, 249, 0.8);
+    top: 18px;
+    left: 0;
+    width: 260px;
+    margin: 10px 0 0 10px;
+    padding: 10px;
+    /*around elements inside of overlay*/
+    overflow: visible;
+}
+
+/* specify formatting 'geocoder'*/
+.geocoder {
+    position: relative;
+    margin: 10px 0 10px;
+}
+
+/* specify formatting 'returnbutton'*/
+#returnbutton {
+    position: relative;
+    margin: 10px 0 10px;
+    width: 100%;
+}
+
+/* specify formatting 'map-overlay-data' that contained both toggle and dropdown menu */
+.map-overlay-data {
+    position: relative;
+    font: 14px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background: rgba(249, 249, 249, 0.8);
+    width: 260px;
+    top: 18px;
+    left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    overflow: visible;
+}
+
+/* specify formatting of the legend */
+.legend {
+    position: absolute;
+    display: none;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    bottom: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.1); /*horizontal shadow, vertical shadow, size of shadow, color*/
+    font: 14px/18px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+/* specify formatting of the legend's expand and close*/
+.legend-bar {
+    position: absolute;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    bottom: 0px;
+    margin-bottom: 30px;
+    font: 14px/15px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 161px;
+    right: 10.5px;
+    z-index: 1;
+}
+
+/* specify formatting 'heading 5' for legend */
+.legend h5 {
+    margin: 0 0 10px;
+}
+
+/* specify formatting of the legend's key (i.e. circle)*/
+.legend-key {
+    display: inline-block;
+    border-radius: 50%; /*curve border to make a circle*/
+    height: 12px; /*size of circle*/
+    width: 12px;
+    margin-right: 5px; /*position of circle*/
+}
+
+/* specify formatting of the legend's key, line
+.legend-key2 {
+    display: inline-block;
+    border-radius: 0%; 
+    height: 4.5px; /*adjust height to make horizontal lines*/
+    /* width: 25px; /*adjust height to make horizontal lines*/
+    /* margin-right: 5px; position of lines */
+    /* margin-bottom: 3px; position of lines placed in the centre of legendlabels */
+/* } */ 
